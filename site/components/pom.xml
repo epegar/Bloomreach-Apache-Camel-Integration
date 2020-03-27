@@ -44,6 +44,21 @@
       <artifactId>hippo-plugin-selections-hst-client</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>org.onehippo.forge.camel-hippoevt</groupId>
+      <artifactId>camel-hippoevt</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-spring-integration</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>net.sf.json-lib</groupId>
+      <artifactId>json-lib</artifactId>
+      <classifier>jdk15</classifier>
+    </dependency>
 
   </dependencies>
   <build>
