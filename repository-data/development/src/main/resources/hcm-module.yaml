@@ -1,0 +1,7 @@
+group: 
+  name: vanilla-camel
+  after: hippo-cms
+project: vanilla-camel
+module: 
+  name: vanilla-camel-repository-data-development
+  after: vanilla-camel-repository-data-application

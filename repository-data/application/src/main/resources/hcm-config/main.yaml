@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    vanillacamel:
+      uri: http://www.vanillacamel.com/vanillacamel/nt/1.0
+      cnd: namespaces/vanilla-camel.cnd

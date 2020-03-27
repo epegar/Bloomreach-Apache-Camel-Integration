@@ -1,0 +1,6 @@
+site: vanilla-camel
+group: vanilla-camel
+project: vanilla-camel
+module:
+  name: vanilla-camel-repository-data-site-development
+  after: vanilla-camel-repository-data-site

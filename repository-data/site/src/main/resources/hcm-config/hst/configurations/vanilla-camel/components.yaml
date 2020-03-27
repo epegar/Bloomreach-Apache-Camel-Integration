@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/vanillacamel/hst:components:
+      jcr:primaryType: hst:components

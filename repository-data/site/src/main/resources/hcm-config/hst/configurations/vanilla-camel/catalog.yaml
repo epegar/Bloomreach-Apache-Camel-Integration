@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/vanillacamel/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /vanillacamel-catalog:
+        jcr:primaryType: hst:containeritempackage

@@ -1,0 +1,5 @@
+group: 
+  name: vanilla-camel
+project: vanilla-camel
+module:
+  name: vanilla-camel-repository-data-webfiles
