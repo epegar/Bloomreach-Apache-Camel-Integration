@@ -1,0 +1,52 @@
+/content/documents/vanillacamel/folder:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 1cda4ae1-84a9-470d-be3f-c33102f24ae7
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: cd17214f-f69a-45a3-bc29-32f7ce1142d7
+  hippotranslation:locale: en
+  /test:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: d4ffed22-c31b-48a2-850e-14d4e3b7338b
+    hippo:versionHistory: e755a6c1-2963-4b6f-b1f4-45f503e204a1
+    /test[1]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f0a02b92-f141-40f3-a182-e787752a91de
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-03-27T15:06:02.327+01:00
+      hippostdpubwf:lastModificationDate: 2020-03-27T15:06:02.327+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:id: a
+      resourcebundle:keys: []
+      resourcebundle:messages: []
+    /test[2]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 53e64d5f-e98e-40ed-8a31-07622ecdd773
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-03-27T15:06:02.327+01:00
+      hippostdpubwf:lastModificationDate: 2020-03-27T15:06:18.212+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:id: a
+      resourcebundle:keys: []
+      resourcebundle:messages: []
+    /test[3]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: edaa6b92-8250-424a-a28b-8dd9cf59cf19
+      hippo:availability: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-03-27T15:06:02.327+01:00
+      hippostdpubwf:lastModificationDate: 2020-03-27T15:06:18.212+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2020-03-27T15:37:55.678+01:00
+      resourcebundle:id: a
+      resourcebundle:keys: []
+      resourcebundle:messages: []
